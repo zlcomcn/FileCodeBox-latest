@@ -6,7 +6,7 @@ config = Config("data/.env")
 # 是否开启DEBUG模式
 DEBUG = config('DEBUG', cast=bool, default=False)
 # 端口
-PORT = config('PORT', cast=int, default=12345)
+PORT = config('PORT', cast=int, default=80)
 # Sqlite数据库文件
 DATABASE_FILE = config('DATABASE_FILE', cast=str, default='data/database.db')
 # Sqlite套接字
